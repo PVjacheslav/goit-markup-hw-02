@@ -12,7 +12,7 @@ background: #FFFFFF
   --secondary-background-color: #f4f4fd;
   --white-color: #ffffff;
   --black-color: #000000;
-  --white-transparent-color: --portf-background-color;
+  
 }
 
 body {
@@ -170,4 +170,21 @@ body {
   font-weight: 400;
   line-height: calc(24 / 16);
   color: var(--secondary-background-color);
+}
+
+.portfolio-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+  background-color: var(--secondary-background-color);
+  cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
