@@ -71,7 +71,7 @@ body {
   color: var(--accent-color);
 }
 
-.logo-text {
+.logo-header {
   color: var(--secondary-text-color);
 }
 
@@ -117,6 +117,7 @@ body {
 }
 
 .hero-button {
+  font-family: inherit;
   font-weight: 500;
   line-height: calc(24 / 16);
   letter-spacing: 0.04em;
@@ -128,7 +129,7 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   color: var(--white-color);
-  background-color: var(--black-color);
+  background-color: var(--accent-color);
 }
 
 /* section */
@@ -156,14 +157,17 @@ body {
 
 /* footer */
 
-/* .footer {
+.page-footer {
   background-color: var(--secondary-text-color);
-} */
+}
+
+.logo-footer {
+  color: var(--secondary-background-color);
+}
 
 .footer-text {
-  position: absolute;
+  /* position: absolute; */
   font-weight: 400;
   line-height: calc(24 / 16);
-  color: var(--black-color);
-  background-color: var(--secondary-background-color);
+  color: var(--secondary-background-color);
 }
