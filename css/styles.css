@@ -93,18 +93,16 @@ body {
 .address {
   font-style: normal;
 }
-.contact-email,
-.contact-phone {
+.contact-list,
+.contact-list {
   font-weight: 400;
   line-height: 1.5;
 
   color: var(--primary-text-color);
 }
 
-.contact-email:hover,
-.contact-email:focus,
-.contact-phone:hover,
-.contact-phone:focus {
+.contact-list:hover,
+.contact-list:focus {
   color: var(--pressed-color);
 }
 
